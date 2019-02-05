@@ -1,15 +1,15 @@
 //function to obfuscate string, not to read from argv directly
 function obfuscate(char){
-  if(char.toLowerCase() == 'a'){
+  if(char.toLowerCase() === 'a'){
     return 4;
   }
-  else if(char.toLowerCase() == 'e'){
+  else if(char.toLowerCase() === 'e'){
     return 3;
   }
-  else if(char.toLowerCase() == 'o'){
+  else if(char.toLowerCase() === 'o'){
     return 0;
   }
-  else if(char.toLowerCase() == 'l'){
+  else if(char.toLowerCase() === 'l'){
     return 1;
   }
   else{
